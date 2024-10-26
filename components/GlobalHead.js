@@ -120,7 +120,8 @@ const GlobalHead = props => {
       <meta name='description' content={description} />
       <meta property='og:locale' content={lang} />
       <meta property='og:title' content={title} />
-      <meta property='og:description' content={description} />
+      {/*<meta property='og:description' content={description} />*/}
+      {/*Fuck you*/}
       <meta property='og:url' content={url} />
       <meta property='og:image' content={image} />
       <meta property='og:site_name' content={title} />
